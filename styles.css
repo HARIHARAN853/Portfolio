@@ -1,0 +1,52 @@
+#img-1 {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    border-left: 150vh;
+    background-color: transparent;
+
+    border-top: 10%;
+}
+
+
+/* General styles for the navbar */
+#navbar-default {
+  background-color: black;
+  color: white;
+}
+
+/* Style for menu items */
+#navbar-default ul li a {
+  color: white;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect */
+#navbar-default ul li a:hover {
+  color: cyan; /* Hover text color */
+  background-color:rgb(24, 118, 249); /* Optional background hover effect */
+}
+
+.card-5:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+}
+.card-5 {
+  width: 384px;
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+#red-more:hover {
+  background-color: cyan;
+  color: black;
+  font-size: large;
+  font-weight: 600;
+}
